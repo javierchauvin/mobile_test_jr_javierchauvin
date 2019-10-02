@@ -3,7 +3,7 @@ Prueba técnica para nuevo integrante del equipo de mobile con un perfil Jr. La 
 
 # Descripción
 
-Crear una nueva aplicación que cuente con un bottom navigation (Android)/ tab bar navigation (iOS), la cual contará con 3 tabs.
+Crear una nueva aplicación que cuente con un bottom navigation (Android)/ tab bar navigation (iOS), la cual contará con dos tabs.
 
 La aplicación tiene como objetivo consultar la ubicación de la ISS, dicha ubicación se obtiene mediante una API pública ([International Space Station Current Location](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)).
 
@@ -11,9 +11,6 @@ La aplicación tiene como objetivo consultar la ubicación de la ISS, dicha ubic
 En la primera tab se deberá mostrar un mapa con un marcador que represente la ubicación de la ISS, esta se deberá de actualizar cada 15 segundos y mostrar el timestamp en un formato de fecha *MMM d, h:mm a*. 
 
 ## 2do Tab
-En el segundo tab queremos que se muestre una tabla con el registro de las peticiones que se han hecho al servicio, es decir, en cada celda tendrá que aparecer el timestamp en un formato de fecha *MMM d, h:mm a* y las coordenadas de la ubicación de la ISS al momento de la consulta.
-
-## 3er Tab
 Crear una vista de forma creativa en donde muestres información sobre ti y tu experiencia profesional.
 
 ## Consideraciones generales
@@ -21,6 +18,7 @@ Crear una vista de forma creativa en donde muestres información sobre ti y tu e
 - Se deberá escribir un README en donde se describa las tareas que se llevaron a cabo para desarrollar la prueba.
 - Así mismo deberá incluir otro archivo README 
 - Se evaluará la calidad del código, uso de git y practicas de programación, por lo que te recomendamos documentar tu proyecto.
+- Eres libre de mejorar y/o incluir nuevas funcionalidades que demuestren tus habilidades. Ten en cuenta que tambien evaluramos las mejoras y funcionalidades que incluyas.
 
 ## Entrega
 
