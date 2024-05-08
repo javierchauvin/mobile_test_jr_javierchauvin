@@ -1,25 +1,18 @@
-# Prueba técnica - Mobile Team
-Prueba técnica para nuevo integrante del equipo de mobile con un perfil Jr. La prueba tiene como objetivo evaluar tus habilidades como desarrollador.
+# ISS Position Tracker 
 
-# Descripción
+La aplicación muestra la posición actual de la estación espacial internacional. 
 
-Crear una nueva aplicación que cuente con un bottom navigation (Android)/ tab bar navigation (iOS), la cual contará con dos tabs.
+## Planificación
 
-La aplicación tiene como objetivo consultar la ubicación de la ISS, dicha ubicación se obtiene mediante una API pública ([International Space Station Current Location](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)).
+Puede ser encontrada en el siguiente [proyecto de Jira.](https://javierchauvin.atlassian.net/jira/software/projects/ILT/boards/2?selectedIssue=ILT-5&sprintStarted=true&atlOrigin=eyJpIjoiZTlhYjQwODJkNDUzNDllMGEwMTQ2NGU4ZDJmZDk2OGIiLCJwIjoiaiJ9)
 
-## 1er Tab
-En la primera tab se deberá mostrar un mapa con un marcador que represente la ubicación de la ISS, esta se deberá de actualizar cada 15 segundos y mostrar el timestamp en un formato de fecha *MMM d, h:mm a*. 
+Las tareas fueron divididas en dos épicas de la sigueinte manera: 
+- *IssTracker:* Creación del proyecto flutter vinculado con el proyecto propuesto con Github 
+- *IssTracker:* Creación de la barra de navegación. (Creación de la barra y de dos pantallas vacías)
+- *IssTracker:* Creación del API para obtención de la posición de la ISS. Creación de modelos a utilizar e interfase. 
+- *IssTracker:* Visualización del mapa, graficación de marcadores, y actualización cada 15s. 
+- *Curriculum:* Creación del layout 
+- *Curriculum:* Creación y utilización de textos. 
 
-## 2do Tab
-Crear una vista de forma creativa en donde muestres información sobre ti y tu experiencia profesional.
+![alt text](https://github.com/javierchauvin/mobile_test_jr_javierchauvin/blob/issPositionTracker/lib/assets/Screenshot%202024-05-08%20083604.png)
 
-## Consideraciones generales
-
-- Se deberá escribir un README en donde se describa las tareas que se llevaron a cabo para desarrollar la prueba.
-- Así mismo deberá incluir otro archivo README 
-- Se evaluará la calidad del código, uso de git y practicas de programación, por lo que te recomendamos documentar tu proyecto.
-- Eres libre de mejorar y/o incluir nuevas funcionalidades que demuestren tus habilidades. Ten en cuenta que tambien evaluramos las mejoras y funcionalidades que incluyas.
-
-## Entrega
-
-Se deberá de hacer un fork a este repositorio, y continuar el desarrollo de la prueba sobre el mismo. Una vez terminada la prueba se deberá enviar un correo electrónico con el enlace del repositorio fork de Github al encargado de tu proceso de reclutamiento.
