@@ -14,5 +14,8 @@ Las tareas fueron divididas en dos épicas de la sigueinte manera:
 - *Curriculum:* Creación del layout 
 - *Curriculum:* Creación y utilización de textos. 
 
-![alt text](https://github.com/javierchauvin/mobile_test_jr_javierchauvin/blob/issPositionTracker/lib/assets/Screenshot%202024-05-08%20083604.png)
+![alt text](https://github.com/javierchauvin/mobile_test_jr_javierchauvin/blob/issPositionTracker/assets/IssPositionTracker_Screenshot.png)
+![alt text](https://github.com/javierchauvin/mobile_test_jr_javierchauvin/blob/issPositionTracker/assets/Curriculum_Screenshot.png)
+
+
 
