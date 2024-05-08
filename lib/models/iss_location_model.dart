@@ -2,12 +2,15 @@ import 'location_model.dart';
 
 class IssLocation{
   final String message;
-  final Location iss_position;
+  final Location position;
   final DateTime timestamp;
+
+  Location get getPosition => position;
+
 
   IssLocation({
     required this.message,
-    required this.iss_position,
+    required this.position,
     required this.timestamp,
 });
 
@@ -18,9 +21,15 @@ class IssLocation{
       timestamp: null != json['timestamp']
           ? DateTime.fromMillisecondsSinceEpoch(json['timestamp'] * 1000)
           : DateTime.fromMillisecondsSinceEpoch(0),
-      iss_position: Location.fromMap( json['iss_position']),
+      position: Location.fromMap( json['iss_position']),
     );
   }
+
+  Map<String,dynamic> toMap() => {
+    'message': message,
+    'timestamp': timestamp,
+    'position': position,
+  };
 
 }
 
